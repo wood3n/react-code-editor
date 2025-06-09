@@ -1,7 +1,7 @@
 import { loader } from '@monaco-editor/react'
 import Diff from './diff';
 import Editor from './editor';
-import './app.css'
+import './App.css'
 
 loader.config({ paths: { vs: 'https://unpkg.com/monaco-editor@0.52.2/min/vs' } });
 
